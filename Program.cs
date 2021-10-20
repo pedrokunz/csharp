@@ -19,14 +19,12 @@ namespace csharp
                 case "soma":
                     soma(args);
                     break;
-
                 case "subtracao":
                     subtrai(args);
                     break;
                 default:
                     Console.WriteLine("Função informada não existe.");
                     break;
-
             }
         }
 
@@ -53,5 +51,3 @@ namespace csharp
         }
     }
 }
-
-
